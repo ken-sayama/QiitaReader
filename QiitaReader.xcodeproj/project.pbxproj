@@ -15,6 +15,7 @@
 		E77B656B20A535A400613611 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77B656A20A535A400613611 /* SwiftyJSON.framework */; };
 		E77B656D20A5369300613611 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B656C20A5369300613611 /* ArticleListViewController.swift */; };
 		E77B656F20A5411C00613611 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B656E20A5411B00613611 /* Data.swift */; };
+		E77B657120A5978400613611 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B657020A5978400613611 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E77B656A20A535A400613611 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77B656C20A5369300613611 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
 		E77B656E20A5411B00613611 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E77B657020A5978400613611 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				E77A26F720A5343F00CA9F0E /* Info.plist */,
 				E77B656C20A5369300613611 /* ArticleListViewController.swift */,
 				E77B656E20A5411B00613611 /* Data.swift */,
+				E77B657020A5978400613611 /* ArticleViewController.swift */,
 			);
 			path = QiitaReader;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77A26EC20A5343D00CA9F0E /* AppDelegate.swift in Sources */,
+				E77B657120A5978400613611 /* ArticleViewController.swift in Sources */,
 				E77B656F20A5411C00613611 /* Data.swift in Sources */,
 				E77B656D20A5369300613611 /* ArticleListViewController.swift in Sources */,
 			);

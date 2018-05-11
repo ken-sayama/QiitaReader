@@ -38,6 +38,7 @@ class ArticleListViewController: UIViewController, UITableViewDelegate, UITableV
                 let json = JSON(object)
                 json.forEach { (_, json) in
                     let article: [String: String?] = [
+                        "id": json["id"].string,
                         "title": json["title"].string,
                         "url": json["url"].string
                     ]
@@ -66,7 +67,15 @@ class ArticleListViewController: UIViewController, UITableViewDelegate, UITableV
         print("\(test)")
         
         //ここに遷移処理を書く
-        //self.present(SecondViewController(), animated: true, completion: nil)
+        //moveShow()
+        self.present(ArticleViewController(), animated: true, completion: nil)
+        //self.present(ArticleViewController(), animated: true, completion: nil)
+    }
+    
+    
+    func moveShow(){
+        let c = ArticleViewController()
+        navigationController?.pushViewController(c, animated: true)
     }
 
 }
